@@ -53,7 +53,7 @@ class Downloader(object):
 
 class ObigramClient(object):
     def __init__(self,token):
-        self.token = 5169447187:AAH1QAGIvRrGRHzAc_aV2uDco6iW48NPILU
+        self.token = token
         self.path = 'https://api.telegram.org/bot' + token + '/'
         self.files_path = 'https://api.telegram.org/file/bot' + token + '/'
         self.runing = False
